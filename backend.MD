@@ -20,14 +20,12 @@ dnf install nodejs -y
 
 Configure the application.
 
-Our application developed by the developer of our org and it is not having any RPM software just like other softwares. So we need to configure every step manually
-
 Add application User
 ```
 useradd expense
 ```
 
-User expense is a function / daemon user to run the application. Apart from that we dont use this user to login to server.
+User expense is a function / daemon user to run the application. Apart from that we don't use this user to login to server.
 
 Also, username expense has been picked because it more suits to our project name.
 
